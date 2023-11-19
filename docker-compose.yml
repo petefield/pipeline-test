@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  dockerpipelinetest:
-    image: ${DOCKER_REGISTRY-}dockerpipelinetest
-    build:
-      context: .
-      dockerfile: src/api/Dockerfile

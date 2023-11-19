@@ -2,6 +2,6 @@
 {
 	public class WeatherforecastConfig
 	{
-        public string EnvironmentName { get; set; }
+		public string EnvironmentName { get; set; } = "NotSet";
     }
 }
